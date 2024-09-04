@@ -1,24 +1,3 @@
-/*
-Lexer is going to output these tokens as a part of the Lexical Analysis.
-This process is known as Lexing and is done by a Lexer (also known as Tokenizer/Scanner).
-
-Lexer is going to be given an input. For example: "let x = 5 + 5;"
-This input will be processed and categorized into the following data structure that holds a list of Tokens:
-	[
-		LET,
-		IDENTIFIER("x"),
-		EQUAL_SIGN,
-		INTEGER(5),
-		PLUS_SIGN,
-		INTEGER(5),
-		SEMICOLON
-	]
-
-These tokens will then be fed into the Parser, which turns the tokens into an Abstract Syntax Tree (AST).
-
-Source code => Tokens => AST
-*/
-
 package token
 
 // Using string is more debug-friendly because we can print strings
